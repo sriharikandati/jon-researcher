@@ -241,3 +241,11 @@ To remove the local install and the managed PATH block:
 ```bash
 scripts/uninstall.sh
 ```
+
+## A Final Note
+
+Jon Researcher is intentionally a small, focused project. Behind its compact scope are ideas shaped by broader experience with agentic systems: local model discovery, tool orchestration, streaming interfaces, conversation state, and application packaging. The aim is not to present a finished answer, but to turn those lessons into something approachable, useful, and easy to build upon.
+
+There is plenty of room for this project to grow—from new research providers and tools to richer workflows and deeper local intelligence. Sometimes a small project is all an idea needs to find its wings. If Jon gives you a useful starting point for an experiment of your own, it has done its job.
+
+If you genuinely enjoy the project or find the work useful, consider giving it a star. It is a small gesture, but it helps the project reach more curious builders and encourages its next chapter.
