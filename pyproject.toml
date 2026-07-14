@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jon-researcher"
+version = "0.1.0"
+description = "A free local AI research CLI powered by Ollama and no-key web research tools."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "inquirerpy>=0.3",
+    "langchain>=1.0",
+    "langchain-ollama>=1.0",
+    "prompt-toolkit>=3",
+    "rich>=13",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pyinstaller>=6"]
+
+[project.scripts]
+jon = "jon_researcher.cli:main"
+jon-researcher = "jon_researcher.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
