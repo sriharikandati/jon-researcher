@@ -1,1 +1,5 @@
-langchain
+inquirerpy>=0.3
+langchain>=1.0
+langchain-ollama>=1.0
+prompt-toolkit>=3
+rich>=13
